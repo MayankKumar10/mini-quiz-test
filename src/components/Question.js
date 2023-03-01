@@ -42,10 +42,11 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
   return(
     <div className="card">
       <div className="card-content">
-        <div className="content">
-        <button className="button is-link is-medium is-fullwidth mt-8" onClick={prevClickHandler}>Back</button>
+        <div className="top-cont">
+        <button className="button is-link is-medium" onClick={prevClickHandler}>Back</button>
           <h2 className="mb-5">{data.question}</h2>
-          <button className="button is-link is-medium is-fullwidth mt-8" onClick={nextClickHandler}>Next</button>
+          <button className="button is-link is-medium " onClick={nextClickHandler}>Next</button>
+          </div>
           <div className="control" ref={radiosWrapper}>
             {data.choices.map((choice, i) => (
               <label className="radio has-background-light" key={i}>
@@ -56,7 +57,7 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
           </div>
           {error && <div className="has-text-danger">{error}</div>}
           
-        </div>
+        
       </div>
     </div>
   );

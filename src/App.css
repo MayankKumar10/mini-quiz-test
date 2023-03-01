@@ -38,7 +38,15 @@ label.radio input {
 }
 
 
+
 .home-cont{
   display: flex;
   gap:.5rem;
+}
+
+.top-cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
