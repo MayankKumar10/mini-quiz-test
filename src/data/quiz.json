@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "question": "A line which cuts a pair of parallel lines is called",
+      "choices": ["Tangent", "Chord", "Traversal", "Intersector"],
+      "answer": "Traversal"
+    },
+    {
+      "question": "If a certain sum of money can become 5 times of its principal in 10 years, then the rate of interest is",
+      "choices": ["20%", "30%", "40%", "50%"],
+      "answer": "40%"
+    },
+    {
+      "question": "A shopkeeper purchases 15 mangoes for Rs. 10 and sells them at 10 mangoes for Rs. 15. Thus, he earns a profit of",
+      "choices": ["50%", "75%", "80%", "125%"],
+      "answer": "125%"
+    }
+  ]
+}
