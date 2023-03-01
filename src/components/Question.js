@@ -56,8 +56,6 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
             ))}
           </div>
           {error && <div className="has-text-danger">{error}</div>}
-          
-        
       </div>
     </div>
   );

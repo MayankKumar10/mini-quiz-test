@@ -1,7 +1,5 @@
 export const SideNav = ({results}) =>{
 
-console.log("results", results);
-
     return <div className="side-nav card">
         <img src="" alt="" />
         <p>Review Answers Here</p>
