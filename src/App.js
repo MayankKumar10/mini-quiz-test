@@ -4,7 +4,7 @@ import './App.css';
 import Start from './components/Start';
 import Question from './components/Question';
 import End from './components/End';
-import Modal from './components/Modal';
+//import Modal from './components/Modal';
 import quizData from './data/quiz.json';
 import { SideNav } from '../src/components/SideNav';
 
